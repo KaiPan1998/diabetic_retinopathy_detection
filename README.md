@@ -53,7 +53,7 @@ python3 main.py --run visual --model_name cnn_01 --model_id ./best_runs/cnn_01
 >- Deep Visualization only works properly with our 'normal' CNN archirtectures (team20_cnn_0x and cnn_blueprint)
 
 #### Deep Visulaization Example 
-![Alt text](https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20/blob/master/diabetic_retinopathy/best_runs/team20_cnn_01/plot/train/deepvis_IDRiD_001.jpg?raw=true?raw=true)
+![Alt text](https://github.com/KaiPan1998/diabetic_retinopathy_detection/blob/main/best_runs/cnn_bp/plot/train/deepvis_IDRiD_001.jpg)
 
 # Performance
 Please note that the results may be hard to reproduce since the dataset is small  and therefore the model performance varies greatly between different runs (we encounterd up to 15% difference for some models). We ran each model five times for 5000 steps (transfer models 700) and report the best result here. Best validation checkpoints are stored and later on used for evaluation. You can have a look at our log files in `best_runs/performance_logs/` to see the detailed results of each run made for the chart below.
