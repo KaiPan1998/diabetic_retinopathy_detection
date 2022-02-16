@@ -4,8 +4,8 @@
 There is not much to do from your side. We used relatives paths, so make sure to execute everything from this directory on the server. Most commands we mention in this description are also in the `run.sh`. You can simply uncomment the related lines and run it.
 ```bash
 # On the server
-git clone https://github.tik.uni-stuttgart.de/iss/dl-lab-21w-team20.git
-cd dl-lab-21w-team20/diabetic_retinopathy
+https://github.com/KaiPan1998/diabetic_retinopathy_detection.git
+cd diabetic_retinopathy_detection
 ```
 
 # How to run the code 
